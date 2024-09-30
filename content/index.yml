@@ -1,0 +1,73 @@
+title: 'Item Docs'
+description: SERP Docs is a collection of tutorials, docs, how to articles, and courses.
+navigation: false
+hero:
+  title: 'Item Docs'
+  description:
+  orientation: vertical
+  headline:
+    label: SERP
+    to: https://serp.co
+    icon: i-heroicons-arrow-top-right-on-square-20-solid
+  links:
+    - label: View Docs
+      icon: i-heroicons-arrow-right-20-solid
+      trailing: true
+      to: '/intro'
+      size: lg
+    - label: Contribute
+      icon: i-simple-icons-github
+      size: lg
+      color: gray
+      to: https://github.com/serpcompany/docs.serp.co
+      target: _blank
+  code: |
+    ```bash [Terminal]
+    gh repo clone serpcompany/docs.serp.co
+    ```
+features:
+  title: 'Item University'
+  links:
+    - label: 'Some CTA'
+      icon: 'i-simple-icons-nuxtdotjs'
+      trailingIcon: 'i-heroicons-arrow-right-20-solid'
+      color: 'gray'
+      to: 'https://serp.co'
+      target: '_blank'
+      size: lg
+  items:
+    - title: 'SERP'
+      # description: 'Powered by Nuxt 3 for optimal performances and SEO.'
+      # icon: 'i-simple-icons-nuxtdotjs'
+      to: 'https://serp.co'
+      target: '_blank'
+
+    - title: 'SERP AI'
+      # description: 'Write your pages with MDC thanks to Nuxt Content.'
+      # icon: 'i-simple-icons-markdown'
+      to: 'https://serp.ai'
+      target: '_blank'
+
+    - title: 'SERP.ly'
+      # description: 'Offers a very large set of full customizable components.'
+      # icon: 'i-heroicons-sparkles-20-solid'
+      to: 'https://serp.ly'
+      target: '_blank'
+
+    - title: 'SERP Media'
+      # description: 'A fully typed development experience.'
+      # icon: 'i-simple-icons-typescript'
+      to: 'https://serp.media'
+      target: '_blank'
+
+    - title: 'SERP University'
+      # description: 'Supported by Nuxt Studio for fast updates and previews.'
+      # icon: 'i-simple-icons-nuxtdotjs'
+      to: 'https://serpuniversity.com'
+      target: '_blank'
+
+    - title: 'Devin Schumacher'
+      # description: 'A full-text search modal empowered by Fuse.js.'
+      # icon: 'i-heroicons-magnifying-glass-20-solid'
+      to: 'https://devinschumacher.com'
+      target: '_blank'
